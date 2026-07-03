@@ -3,13 +3,13 @@
 
 HardwareSerial ArduinoSerial(2);
 
-const char* ssid = "TP-Link_1578";
-const char* password = "94314397";
+const char* ssid = "NUME_WIFI";
+const char* password = "PAROLA_WIFI";
 
 WiFiClient client;
 
 unsigned long channelID = 3399477;
-const char* writeAPIKey = "I88IPDZB46VAWTO5";
+const char* writeAPIKey = "WRITE_API_KEY";
 
 void setup() {
 
